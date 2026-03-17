@@ -1342,7 +1342,13 @@
 
                 <span id="element"></span>
                 <div class="buttons">
-                    <button class="btn">Download Resume</button>
+                   <button class="btn" onclick="downloadResume()">Download Resume</button>
+
+<script>
+function downloadResume() {
+    window.location.href = "resume.pdf";
+}
+</script>
                     <a href="https://github.com/richebiswas" target="_blank">
                         <button class="btn">Visit GitHub</button>
                     </a>
